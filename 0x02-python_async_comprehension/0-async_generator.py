@@ -6,6 +6,7 @@ import random
 import asyncio
 from typing import Generator
 
+
 async def async_generator() -> Generator[float, None, None]:
     """Generator"""
     for iterr in range(10):
